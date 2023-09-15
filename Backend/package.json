@@ -1,0 +1,27 @@
+{
+  "name": "legaleagles",
+  "version": "1.0.0",
+  "description": "Backend Server to handle requests made by the website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Tanmay Shukla",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.0.0",
+    "mongoose": "^7.5.1",
+    "nodeenv": "^3.0.75"
+  },
+  "devDependencies": {
+    "ndb": "^1.1.5",
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "mongoose": "^7.4.3",
+    "node": ">=10.0.0"
+  }
+}
